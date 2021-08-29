@@ -22,6 +22,7 @@ public class Triangle {
 		this.message = "";
 	}
 
+
 	public String getMessage()
 	{
 		return this.message;
@@ -41,7 +42,7 @@ public class Triangle {
 			return false;
 		}
 
-		if (b<=0)
+		if (c<=0)
 		{
 			this.message = "c<=0";
 			return false;
